@@ -12,9 +12,10 @@
    ========================================================================== */
 
 html {
-  color: #222;
+  color: #FFFFFF;
   font-size: 1em;
   line-height: 1.4;
+  background-color: #CDDFF4;
 }
 
 /*
@@ -86,6 +87,180 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+
+/* hero section styles */
+section{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  overflow: hidden;
+}
+/* header styles */
+header{
+  text-align: right;
+  position: relative;
+}
+
+header h1{
+  color: white;
+  display: inline-flex;
+  writing-mode: vertical-rl;
+  text-orientation: sideways-right;
+  font-size: 100px;
+  height: 725px;
+  margin-left: 50px;
+}
+
+/* banner styles */
+
+.jeremy_herobg{
+  position: relative;
+}
+
+.jeremy_herobg img{
+  width: 722px;
+  height: 722px;
+}
+
+/* Begin nav styles */
+nav{
+  color: #738EAD;
+  justify-content: flex-end;
+  align-items: flex-end;
+  text-align: right;
+  position: relative;
+  margin-right: 50px;
+  width: 50%;
+  z-index: 1;
+  top: 0;
+  left: 0;
+}
+
+nav ul{
+ display: block;
+ flex-direction: row;
+ justify-content: flex-end;
+ align-items: flex-end;
+ list-style: none;
+ padding: 0;
+}
+
+nav ul li{
+  margin: 35px 15px 0 15px;
+  font-size: 24px;
+}
+
+nav ul li a{
+  color: #738EAD;
+  text-decoration: none;
+}
+
+nav ul li a:hover{
+  color: #FDFF9B;
+}
+
+/* music section styles */
+
+.music{
+  display: inline-block;
+}
+
+/* button styles */
+button{
+  color: white;
+  background-color: #CDDFF4;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 130px;
+  margin-bottom: 30px;
+  display: flex;
+  border-radius: 36px;
+  border-color: white;
+  border-style: solid;
+  padding: 10px;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+button a{
+  color: white;
+  text-decoration: none;
+}
+
+button a:hover{
+  color: #738EAD;
+  background-color: white;
+  text-align: center;
+  display: flex;
+  border-radius: 36px;
+  border-color: white;
+  border-style: solid;
+  padding: 10px;
+  text-decoration: none;
+}
+
+/* album styles */
+
+ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+}
+
+ul li{
+  margin: 35px 15px 0 15px;
+}
+
+ul li img{
+  width: 360px;
+  height: 360px;
+}
+
+/* music video styles */
+
+.music_video img{
+  width: 739px;
+  height: 416px;
+  margin-top: 187px;
+  margin-bottom: 132px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+}
+
+/* social styles */
+
+.social_icons img{
+  width: 31px;
+  height: 31px;
+}
+
+/* home title styles */
+
+ h2{
+  color: #738EAD;
+  opacity: 30%;
+  font-size: 130px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 25px;
+}
+
+/* footer styles */
+
+footer{
+  background: #FDFF9B;
+  color: #738EAD;
+  padding: 10px;
+  text-align: center;
+  font-size: 30px;
+}
 
 /* ==========================================================================
    Helper classes
@@ -260,4 +435,3 @@ textarea {
     page-break-after: avoid;
   }
 }
-
