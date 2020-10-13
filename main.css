@@ -88,6 +88,8 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/* home styles */
+
 /* hero section styles */
 section{
   width: 100%;
@@ -227,7 +229,7 @@ ul li img:hover{
 
 /* music video styles */
 
-.music_video img{
+.music_video{
   width: 739px;
   height: 416px;
   margin-top: 187px;
@@ -243,6 +245,8 @@ ul li img:hover{
 .social_icons img{
   width: 31px;
   height: 31px;
+  align-items: center;
+
 }
 
 /* home title styles */
@@ -266,6 +270,54 @@ footer{
   text-align: center;
   font-size: 30px;
 }
+
+/* about page */
+
+/* header styles */
+
+.about{
+    align-items: center;
+}
+
+.about h1{
+  color: white;
+  display: flex;
+  font-size: 130px;
+  height: 190px;
+  width: 974px;
+  margin-left: 50px;
+  justify-content: center;
+  text-align: center;
+}
+
+.content main p{
+  font-size: 24.5px;
+  color: #000;
+  height: 1180px;
+  width: 588px;
+  padding-top: 244px;
+  padding-left: 143px;
+  padding-right: 54px;
+}
+
+.about_images{
+  margin: 15px 15px 15px 15px;
+  align-items: flex-end;
+  padding-top: 244px;
+}
+
+.about_images .duo{
+  width: 571px;
+  height: 387px;
+  padding-bottom: 61px;
+}
+
+.about_images .solo{
+  width: 571px;
+  height: 714px;
+  padding-bottom: 340px;
+}
+
 
 /* ==========================================================================
    Helper classes
