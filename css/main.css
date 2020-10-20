@@ -322,15 +322,15 @@ footer{
 
 /* image styles */
 
-.tour_image{
-  position: relative;
+.tour_header{
   margin-top: 50px;
+  background-image: url('../img/JZTourHeader2020_V2.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 780px;
 }
 
-.tour_image{
-  max-width: 100vw;
-  max-height: auto;
-}
 
 /* dates styles */
 
