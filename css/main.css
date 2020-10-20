@@ -185,20 +185,18 @@ button{
   text-decoration: none;
 }
 
+button:hover{
+  color: #738EAD;
+  background-color: white;
+}
+
 button a{
   color: white;
   text-decoration: none;
 }
 
 button a:hover{
-  color: #738EAD;
-  background-color: white;
-  text-align: center;
-  display: flex;
-  border-radius: 36px;
-  border-color: white;
-  border-style: solid;
-  padding: 10px;
+  color: #CDDFF4;
   text-decoration: none;
 }
 
