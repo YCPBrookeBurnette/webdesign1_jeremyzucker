@@ -185,20 +185,18 @@ button{
   text-decoration: none;
 }
 
+button:hover{
+  color: #738EAD;
+  background-color: white;
+}
+
 button a{
   color: white;
   text-decoration: none;
 }
 
 button a:hover{
-  color: #738EAD;
-  background-color: white;
-  text-align: center;
-  display: flex;
-  border-radius: 36px;
-  border-color: white;
-  border-style: solid;
-  padding: 10px;
+  color: #CDDFF4;
   text-decoration: none;
 }
 
@@ -316,6 +314,362 @@ footer{
   width: 571px;
   height: 714px;
   padding-bottom: 340px;
+}
+
+/* tour styles */
+
+/* image styles */
+
+.tour_header{
+  margin-top: 50px;
+  background-image: url('../img/JZTourHeader2020_V2.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 780px;
+}
+
+
+/* dates styles */
+
+.tour .dates ul{
+  display: block;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  padding: 151;
+  margin-left: 312px;
+  margin-top: 195px;
+  margin-bottom: 286px;
+  line-height: 150px
+}
+
+.tour .dates li{
+  list-style: none;
+  color: #738EAD;
+  font-size: 45px;
+}
+
+/* places styles */
+
+.tour .places ul{
+  display: block;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  margin-left: 105px;
+  margin-top: 190px;
+  margin-bottom: 286px;
+  line-height: 148px;
+}
+
+.tour .places li{
+  list-style: none;
+  color: #000;
+  font-size: 55px;
+}
+
+  /* Media Queries - Tablet */
+
+  @media (max-width: 768px) and (min-width: 500px) {
+
+    /* home styles */
+
+    header h1{
+      font-size: 55px;
+      height: 403px;
+    }
+
+    /* banner styles */
+
+    .jeremy_herobg img{
+      width: 440px;
+      height: 440px;
+    }
+
+    /* Begin nav styles */
+
+    nav ul li{
+      font-size: 12px;
+    }
+
+    /* music section styles */
+
+    /* button styles */
+    button{
+      margin-top: 30px;
+      margin-bottom: 50px;
+      border-radius: 36px;
+      padding: 10px;
+      font-size: 18px;
+      text-decoration: none;
+    }
+
+    /* album styles */
+
+    ul li{
+      margin: 35px 15px 0 15px;
+    }
+
+    ul li img{
+      width: 143px;
+      height: 143px;
+    }
+
+    /* music video styles */
+
+    .music_video{
+      width: 375px;
+      height: 212px;
+      margin-top: 40px;
+      margin-bottom: 50px;
+    }
+
+    /* social styles */
+
+    .social_icons img{
+      width: 10px;
+      height: 10px;
+    }
+
+    /* home title styles */
+
+     h2{
+      font-size: 75px;
+      height: 25px;
+    }
+
+    /* footer styles */
+
+    footer{
+      padding: 8px;
+      font-size: 14px;
+    }
+
+    /* about page */
+
+    /* header styles */
+
+    .about h1{
+      font-size: 55px;
+      height: 73px;
+      width: 403px;
+      margin-left: 50px;
+    }
+
+    .content main p{
+      font-size: 13px;
+      height: 644px;
+      width: 301px;
+      padding-top: 65px;
+      padding-left: 70px;
+      padding-right: 20px;
+    }
+
+    .about_images{
+      margin: 15px 15px 15px 15px;
+      padding-top: 65px;
+    }
+
+    .about_images .duo{
+      width: 317px;
+      height: 214.85px;
+      padding-bottom: 33px;
+    }
+
+    .about_images .solo{
+      width: 317px;
+      height: 396.39px;
+      padding-bottom: 160px;
+    }
+
+/* tour styles */
+
+    .tour_header{
+      height: 401px;
+    }
+
+
+    /* dates styles */
+
+    .tour .dates ul{
+      padding: 151;
+      margin-left: 169px;
+      margin-top: 50px;
+      margin-bottom: 80px;
+      line-height: 56px
+    }
+
+    .tour .dates li{
+      font-size: 20px;
+    }
+
+    /* places styles */
+
+    .tour .places ul{
+      margin-left: 43px;
+      margin-top: 50px;
+      margin-bottom: 80px;
+      line-height: 48px;
+    }
+
+    .tour .places li{
+      font-size: 24px;
+    }
+}
+
+/* Media Queries - Small Tablet */
+@media (max-width: 499px) and (min-width: 321px) {
+}
+/* Media Queries - Iphone */
+@media (max-width: 320px) and (min-width: 290px) {
+
+  /* home styles */
+
+  header h1{
+    font-size: 30px;
+    height: 205px;
+  }
+
+  /* banner styles */
+
+  .jeremy_herobg img{
+    width: 238px;
+    height: 238px;
+  }
+
+  /* Begin nav styles */
+
+  nav ul li{
+    font-size: 30px;
+  }
+
+  /* music section styles */
+
+  /* button styles */
+  button{
+    margin-top: 30px;
+    margin-bottom: 50px;
+    border-radius: 36px;
+    padding: 10px;
+    font-size: 12px;
+  }
+
+  /* album styles */
+
+  ul li{
+    margin: 35px 15px 0 15px;
+  }
+
+  ul li img{
+    width: 143px;
+    height: 143px;
+  }
+
+  /* music video styles */
+
+  .music_video{
+    width: 375px;
+    height: 212px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+  }
+
+  /* social styles */
+
+  .social_icons img{
+    width: 25px;
+    height: 25px;
+  }
+
+  /* home title styles */
+
+   h2{
+    font-size: 75px;
+    height: 25px;
+  }
+
+  /* footer styles */
+
+  footer{
+    padding: 8px;
+    font-size: 7px;
+  }
+
+  /* about page */
+
+  /* header styles */
+
+  .about h1{
+    font-size: 55px;
+    height: 73px;
+    width: 403px;
+    margin-left: 50px;
+  }
+
+  .content main p{
+    font-size: 13px;
+    height: 644px;
+    width: 301px;
+    padding-top: 65px;
+    padding-left: 70px;
+    padding-right: 20px;
+  }
+
+  .about_images{
+    margin: 15px 15px 15px 15px;
+    padding-top: 65px;
+  }
+
+  .about_images .duo{
+    width: 317px;
+    height: 214.85px;
+    padding-bottom: 33px;
+  }
+
+  .about_images .solo{
+    width: 317px;
+    height: 396.39px;
+    padding-bottom: 160px;
+  }
+
+  /* tour styles */
+
+  .tour_header{
+    height: 169px;
+  }
+
+
+  /* dates styles */
+
+  .tour .dates ul{
+    padding: 151;
+    margin-left: 44px;
+    margin-top: 45px;
+    margin-bottom: 60px;
+    line-height: 20px;
+  }
+
+  .tour .dates li{
+    font-size: 9px;
+  }
+
+  /* places styles */
+
+  .tour .places ul{
+    margin-left: 33px;
+    margin-top: 45px;
+    margin-bottom: 60px;
+    line-height: 20px;
+  }
+
+  .tour .places li{
+    font-size: 14px;
+  }
+
 }
 
 
