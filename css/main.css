@@ -389,23 +389,31 @@ footer{
   z-index: 1;
   top: 0;
   right: 0;
-  background-color: #111;
+  background-color: #FDFF9B;
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 60px;
 }
 
 .sidenav a {
-  padding: 8px 8px 8px 32px;
+  padding: 8px 8px 75px 8px;
   text-decoration: none;
-  font-size: 25px;
-  color: #818181;
-  display: block;
+  font-size: 30px;
+  color: #738EAD;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   transition: 0.3s;
 }
 
-.sidenav a:hover {
-  color: #f1f1f1;
+.sidenav .nav_social_icons{
+  margin-left: -2px;
+  margin-right: -2px;
+}
+
+.sidenav .nav_social_icons img{
+  height: 25px;
+  width: 25px;
 }
 
 .sidenav .closebtn {
@@ -667,11 +675,8 @@ footer{
 
   /* social styles */
 
-  /* added some margin for the icons to appear */
   .social_icons img{
-    width: 25px;
-    height: 25px;
-    margin: 0px 10px;
+    display: none;
   }
 
   /* home title styles */
@@ -685,6 +690,8 @@ footer{
 
   footer{
     padding: 8px;
+    position: relative;
+    bottom: 0px;
     font-size: 7px;
   }
 
@@ -693,10 +700,10 @@ footer{
   /* header styles */
 
   .about h1{
-    font-size: 30px;
+    font-size: 40px;
     height: 73px;
-    width: 205px;
-    margin-left: 10px;
+    width: 300px;
+    margin-left: 50px;
   }
 
   .content main p{
@@ -738,7 +745,7 @@ footer{
 
   .tour .dates ul{
     padding: 151;
-    margin-left: 44px;
+    margin-left: 100px;
     margin-top: 45px;
     margin-bottom: 60px;
     line-height: 20px;
@@ -746,6 +753,7 @@ footer{
 
   .tour .dates li{
     font-size: 9px;
+    padding-bottom: 27px;
   }
 
   /* places styles */
@@ -759,6 +767,7 @@ footer{
 
   .tour .places li{
     font-size: 14px;
+    padding-bottom: 27px;
   }
 }
 
