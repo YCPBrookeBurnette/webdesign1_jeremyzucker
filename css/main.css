@@ -622,16 +622,31 @@ footer{
     height: 238px;
   }
 
+  .content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
   /* Begin nav styles */
 
   nav ul{
     display: none;
   }
 
-  .hamburger{
+  .hamburger {
     display: inline;
-  }
+    position: relative;
+    right: 14px;
+    top: -5px;
+}
 
+span#hamburger_home {
+  position: relative;
+  top: 20px;
+  right: 4px;
+}
   /* music section styles */
 
   /* button styles */
@@ -699,22 +714,25 @@ footer{
 
   /* header styles */
 
-  .about h1{
+  .about h1 {
     font-size: 40px;
     height: 73px;
-    width: 300px;
+    width: 250px;
     margin-left: 50px;
-  }
+    justify-content: end;
+    position: relative;
+    right: 34px;
+}
 
-  .content main p{
-    font-size: 8px;
-    height: 276px;
-    width: 265px;
-    padding-top: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
-    display: block;
-  }
+.content main p {
+  font-size: 8px;
+  height: 187px;
+  width: 265px;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  display: block;
+}
 
   .about_images{
     margin: 5px 5px 5px 5px;
