@@ -101,6 +101,7 @@ section{
 header{
   text-align: right;
   position: relative;
+  left: 350%;
 }
 
 header h1{
@@ -109,8 +110,7 @@ header h1{
   writing-mode: vertical-rl;
   text-orientation: sideways-right;
   font-size: 100px;
-  height: 725px;
-  margin-left: 50px;
+  height: 100%;
 }
 
 /* banner styles */
@@ -120,8 +120,8 @@ header h1{
 }
 
 .jeremy_herobg img{
-  width: 722px;
-  height: 722px;
+  width: auto;
+  height: 88%;
 }
 
 /* Begin nav styles */
@@ -164,6 +164,8 @@ nav ul li a:hover{
 
 .music{
   display: inline-block;
+  width: 100%;
+  height: 100%;
 }
 
 /* button styles */
@@ -173,13 +175,13 @@ button{
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 130px;
-  margin-bottom: 30px;
+  margin-top: 5%;
+  margin-bottom: 5%;
   display: flex;
   border-radius: 36px;
   border-color: white;
   border-style: solid;
-  padding: 10px;
+  padding: 1%;
   font-size: 24px;
   text-decoration: none;
 }
@@ -211,12 +213,12 @@ ul{
 }
 
 ul li{
-  margin: 35px 15px 0 15px;
+  margin: 1% 1% 1% 1%;
 }
 
 ul li img{
-  width: 360px;
-  height: 360px;
+  width: 100%;
+  height: auto;
 }
 
 .album_covers .album_4{
@@ -231,10 +233,10 @@ ul li img:hover{
 /* music video styles */
 
 .music_video{
-  width: 739px;
-  height: 416px;
-  margin-top: 187px;
-  margin-bottom: 132px;
+  width: 100%;
+  height: auto;
+  margin-top: 10%;
+  margin-bottom: 15%;
   margin-left: auto;
   margin-right: auto;
   display: flex;
@@ -266,7 +268,7 @@ ul li img:hover{
 footer{
   background: #FDFF9B;
   color: #738EAD;
-  padding: 10px;
+  padding: 1%;
   text-align: center;
   font-size: 30px;
 }
@@ -285,37 +287,40 @@ footer{
   font-size: 130px;
   height: 190px;
   width: 974px;
-  margin-left: 50px;
+  margin: auto;
   justify-content: center;
   text-align: center;
+}
+
+.content{
+  width: 100%;
+  height: 100%;
 }
 
 .content main p{
   font-size: 29px;
   color: #000;
-  height: 1180px;
-  width: 588px;
-  padding-top: 244px;
-  padding-left: 143px;
-  padding-right: 54px;
+  height: auto;
+  width: 50%;
+  padding-top: 10%;
+  padding-left: 10%;
 }
 
 .about_images{
-  margin: 15px 15px 15px 15px;
-  align-items: flex-end;
-  padding-top: 244px;
+  position: relative;
+  padding-top: 10%;
+  padding-right: 5%;
 }
 
 .about_images .duo{
-  width: 571px;
-  height: 387px;
-  padding-bottom: 61px;
+  width: 100%;
+  height: auto;
+  padding-bottom: 5%;
 }
 
 .about_images .solo{
-  width: 571px;
-  height: 714px;
-  padding-bottom: 340px;
+  width: 100%;
+  height: auto;
 }
 
 /* tour styles */
@@ -333,17 +338,20 @@ footer{
 
 /* dates styles */
 
+.tour .dates{
+  width: 50%;
+}
+
 .tour .dates ul{
   display: block;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   list-style: none;
-  padding: 151;
-  margin-left: 312px;
-  margin-top: 195px;
-  margin-bottom: 286px;
-  line-height: 150px
+  margin-left: 40%;
+  margin-top: 10%;
+  margin-bottom: 15%;
+  line-height: 150px;
 }
 
 .tour .dates li{
@@ -354,6 +362,10 @@ footer{
 
 /* places styles */
 
+.tour .places{
+  width: 50%;
+}
+
 .tour .places ul{
   display: block;
   flex-direction: row;
@@ -361,9 +373,8 @@ footer{
   align-items: center;
   list-style: none;
   padding: 0;
-  margin-left: 105px;
-  margin-top: 190px;
-  margin-bottom: 286px;
+  margin-top: 10%;
+  margin-bottom: 15%;
   line-height: 148px;
 }
 
@@ -439,6 +450,10 @@ footer{
 
     /* home styles */
 
+    header{
+      left: 30%;
+    }
+
     header h1{
       font-size: 55px;
       height: 403px;
@@ -447,8 +462,8 @@ footer{
     /* banner styles */
 
     .jeremy_herobg img{
-      width: 440px;
-      height: 440px;
+      width: auto;
+      height: 90%;
     }
 
     /* Begin nav styles */
@@ -461,10 +476,10 @@ footer{
 
     /* button styles */
     button{
-      margin-top: 30px;
-      margin-bottom: 50px;
+      margin-top: 5%;
+      margin-bottom: 5%;
       border-radius: 36px;
-      padding: 10px;
+      padding: 1.5%;
       font-size: 18px;
       text-decoration: none;
     }
@@ -484,12 +499,12 @@ footer{
     }
 
     ul li{
-      margin: 35px 15px 0 15px;
+      margin: 1% 2% 1% 2%;
     }
 
     ul li img{
-      width: 143px;
-      height: 143px;
+      width: 100%;
+      height: auto;
     }
 
     .album_covers .album_4{
@@ -499,15 +514,17 @@ footer{
     /* music video styles */
 
     .music_video{
-        width: 375px;
-        height: 212px;
-        margin-top: 41px;
-        margin-bottom: 35px;
+        width: 100%;
+        height: auto;
+        margin-top: 5%;
+        margin-bottom: 7%;
+        margin-left: 5%;
+        margin-right: 5%;
     }
 
     .music_video iframe{
-      width: 375px;
-      height: 212px;
+      width: auto;
+      height: auto;
     }
 
     /* social styles */
@@ -744,12 +761,14 @@ span#hamburger_home {
     width: 145px;
     height: 98px;
     padding-bottom: 10px;
+    padding-right: 7px;
   }
 
   .about_images .solo{
     width: 113px;
-    height: 132px;
+    height: 142px;
     padding-bottom: 10px;
+    padding-left: 7px;
   }
 
   /* tour styles */
