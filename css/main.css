@@ -450,9 +450,9 @@ footer{
 
     /* home styles */
 
-    header{
-      left: 30%;
-    }
+    header {
+      left: 3%;
+  }
 
     header h1{
       font-size: 55px;
@@ -634,11 +634,10 @@ footer{
 
   /* banner styles */
 
-  .jeremy_herobg img{
-    width: 238px;
-    height: 238px;
-  }
-
+  .jeremy_herobg img {
+    width: 200px;
+    height: 220px;
+}
   .content{
     display: flex;
     justify-content: center;
@@ -661,19 +660,20 @@ footer{
 
 span#hamburger_home {
   position: relative;
-  top: 20px;
-  right: 4px;
+  top: 10px;
+  right: -16px;
 }
   /* music section styles */
 
   /* button styles */
-  button{
-    margin-top: 30px;
-    margin-bottom: 50px;
+  button {
+    margin: 0 auto;
     border-radius: 36px;
     padding: 10px;
     font-size: 12px;
-  }
+    position: relative;
+    top: 0px;
+}
 
   /* album styles */
 
@@ -720,12 +720,18 @@ span#hamburger_home {
 
   /* footer styles */
 
-  footer{
+  footer {
     padding: 8px;
-    position: relative;
+    position: absolute;
     bottom: 0px;
     font-size: 7px;
-  }
+    width: 100vw;
+}
+
+h2.home_title {
+  position: relative;
+  top: -80px;
+}
 
   /* about page */
 
@@ -751,14 +757,27 @@ span#hamburger_home {
   display: block;
 }
 
-  .about_images{
-    margin: 5px 5px 5px 5px;
-    padding-top: 10px;
-    display: inline-flex;
-  }
+.about_images {
+  margin: 5px 5px 5px 5px;
+  padding-top: 10px;
+  position: relative;
+  display: inline-flex;
+  left: 22px;
+}
 
-  .about_images .duo{
-    width: 145px;
+h2#aboutheader {
+  position: relative;
+  top: -80px;
+}
+
+h2.home_title {
+  position: relative;
+  top: -130px;
+}
+
+
+  .about_images .duo {
+    width: 45%;
     height: 98px;
     padding-bottom: 10px;
     padding-right: 7px;
@@ -773,9 +792,22 @@ span#hamburger_home {
 
   /* tour styles */
 
-  .tour_header{
+  .tour_header {
     height: 169px;
-  }
+    position: relative;
+    top: -70px;
+}
+
+section.tour {
+  position: relative;
+  top: -100px;
+  left: -25px;
+}
+
+h2.tour_title {
+  position: relative;
+  top: -270px;
+}
 
 
   /* dates styles */
