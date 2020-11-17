@@ -301,26 +301,27 @@ footer{
   font-size: 29px;
   color: #000;
   height: auto;
-  width: 50%;
-  padding-top: 10%;
-  padding-left: 10%;
+  width: 588px;
+  padding-top: 30px;
+  padding-left: 80px;
 }
 
 .about_images{
   position: relative;
-  padding-top: 10%;
-  padding-right: 5%;
+  padding-top: 30px;
+  padding-right: 50px;
+  padding-left: 30px;
 }
 
 .about_images .duo{
-  width: 100%;
-  height: auto;
-  padding-bottom: 5%;
+  width: 571px;
+  height: 387px;
+  padding-bottom: 50px;
 }
 
 .about_images .solo{
-  width: 100%;
-  height: auto;
+  width: 571px;
+  height: 714px;
 }
 
 /* tour styles */
@@ -777,7 +778,7 @@ h2.home_title {
 
 
   .about_images .duo {
-    width: 45%;
+    width: 145px;
     height: 98px;
     padding-bottom: 10px;
     padding-right: 7px;
